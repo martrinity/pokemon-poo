@@ -20,7 +20,11 @@ function Pokemon(nombre,color,poderDeAtaque){
 
 
 const Digglet = new Pokemon('Digglet','marron', 50);
-const Vulpux = new Pokemon ('Vulpix','marron', 45)
+const Vulpux = new Pokemon ('Vulpix','marron', 45);
+const Abra = new Pokemon ('Abra','amarillo', 60);
+const Squirtle = new Pokemon ('Squirtle','azul',30)
+const Caterpie = new Pokemon ('Caterpie','verde',50);
+const Cubone = new Pokemon ('Cubone','blanco',40);
 
 Digglet.atacar(Vulpix);
 
